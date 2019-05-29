@@ -50,26 +50,26 @@ function Login2(props) {
       <Grid container spacing={24}>
 
         <Grid item xs={12}>
-            <Typography className={classes.title} variant="h5">Login</Typography>
+          <Typography className={classes.title} variant="h5">Login</Typography>
         </Grid>
 
         <Grid item xs={12}>
-            <form id={'loginForm'}>
-                <div>
-                    <input type={'text'} placeholder={'EMAIL'} className={classes.info}></input>
-                </div>
-                <div>
-                    <input type={'password'} placeholder={'PASSWORD'} className={classes.info}></input>
-                </div>
-            </form>
+          <form id={'loginForm'}>
+            <div>
+              <input type={'text'} placeholder={'EMAIL'} className={classes.info}></input>
+            </div>
+            <div>
+              <input type={'password'} placeholder={'PASSWORD'} className={classes.info}></input>
+            </div>
+          </form>
         </Grid>
 
         <Grid item xs={12}>
-            <Typography className={classes.forgot}>Forgot Your PASSWORD?</Typography>
+          <Typography className={classes.forgot}>Forgot Your PASSWORD?</Typography>
         </Grid>
 
         <Grid item xs={12}>
-            <Button className={classes.button}>SIGN IN</Button>
+          <Button className={classes.button}>SIGN IN</Button>
         </Grid>
         
       </Grid>

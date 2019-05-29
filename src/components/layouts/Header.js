@@ -39,7 +39,7 @@ const Header = props => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" color="inherit" noWrap>
-          Incheon Dev's ~ React.js AdminPage Template Project
+          사이트 관리자
         </Typography>
       </Toolbar>
     </AppBar>

@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-// iDev's 컴포넌트
+// others
 import Layouts from './layouts';
 
 class App extends React.Component {
