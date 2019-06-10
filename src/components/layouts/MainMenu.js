@@ -32,6 +32,8 @@ const styles = theme => ({
     height: "32px",
     verticalAlign: "middle",
   },
+  mainmenuBox: { padding: "25px 0" },
+  mainmenuWrap: { padding: "15px 34px 15px 30px" },
   mainmenu: { color: "#ffffff" },
 });
 
@@ -48,42 +50,42 @@ class ResponsiveDrawer extends React.Component {
           </div>
         </NavLink>
         <Divider />
-        <List>
+        <List className={ classes.mainmenuBox } >
           <NavLink to="/" activeClassName="selected">
-            <ListItem button>            
+            <ListItem className={ classes.mainmenuWrap } button>            
                 <ListItemIcon><DashboardIcon className={ classes.mainmenu }/></ListItemIcon>
                 <ListItemText><Typography className={ classes.mainmenu }>대시보드</Typography></ListItemText>
             </ListItem>
           </NavLink>
           <NavLink to="/" activeClassName="selected">
-            <ListItem button>
+            <ListItem className={ classes.mainmenuWrap } button>
               <ListItemIcon><TableIcon className={ classes.mainmenu } /></ListItemIcon>
               <ListItemText><Typography className={ classes.mainmenu }>테이블</Typography></ListItemText>
             </ListItem>
           </NavLink>
           <NavLink to="/" activeClassName="selected">
-            <ListItem button>
+            <ListItem className={ classes.mainmenuWrap } button>
               <ListItemIcon><ChartIcon className={ classes.mainmenu } /></ListItemIcon>
               <ListItemText><Typography className={ classes.mainmenu }>그래프</Typography></ListItemText>
             </ListItem>
           </NavLink>
           <NavLink to="/" activeClassName="selected">
-            <ListItem button>
+            <ListItem className={ classes.mainmenuWrap } button>
               <ListItemIcon><PagesIcon className={ classes.mainmenu } /></ListItemIcon>
               <ListItemText><Typography className={ classes.mainmenu }>페이지</Typography></ListItemText>
             </ListItem>
           </NavLink>
         </List>
         <Divider />
-        <List>
+        <List className={ classes.mainmenuBox } >
           <NavLink to="/icons" activeClassName="selected">
-            <ListItem button>
+            <ListItem className={ classes.mainmenuWrap } button>
               <ListItemIcon><IconsIcon className={ classes.mainmenu } /></ListItemIcon>
               <ListItemText><Typography className={ classes.mainmenu }>아이콘들</Typography></ListItemText>
             </ListItem>
           </NavLink>
           <NavLink to="/" activeClassName="selected">
-            <ListItem button>
+            <ListItem className={ classes.mainmenuWrap } button>
               <ListItemIcon><SettingsIcon className={ classes.mainmenu } /></ListItemIcon>
               <ListItemText><Typography className={ classes.mainmenu }>기타</Typography></ListItemText>
             </ListItem>

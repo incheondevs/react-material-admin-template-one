@@ -14,6 +14,7 @@ const styles = theme => ({
       width: drawerWidth,
       flexShrink: 0,
     },
+    boxShadow: "0 0 15px rgba(25, 25, 25, 0.5)",
   },
   drawerPaper: {
     width: drawerWidth,
